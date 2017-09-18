@@ -3,9 +3,21 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem 'rspec'
-gem 'sinatra'
+ruby '2.4.0'
+
 gem 'rake'
-gem 'capybara'
+gem 'sinatra'
+gem 'thin'
+gem 'data_mapper'
+gem 'dm-postgres-adapter'
+
+group :test do
+  gem 'capybara'
+  gem 'rspec'
+  gem 'rubocop'
+  gem 'simplecov', require: false
+  gem 'simplecov-console', require: false
+end
+
 
 # gem "rails"
