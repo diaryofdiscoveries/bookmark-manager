@@ -1,4 +1,3 @@
-# frozen_string_literal: true
 source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
@@ -10,6 +9,7 @@ gem 'sinatra'
 gem 'thin'
 gem 'data_mapper'
 gem 'dm-postgres-adapter'
+gem 'pg'
 
 group :test do
   gem 'capybara'
@@ -19,6 +19,3 @@ group :test do
   gem 'simplecov-console', require: false
   gem 'database_cleaner'
 end
-
-
-# gem "rails"
