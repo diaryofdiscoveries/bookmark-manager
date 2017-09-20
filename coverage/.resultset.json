@@ -1,6 +1,21 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/zoehopkins/Documents/Projects/bookmark-manager/spec/features/adding_tags_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/zoehopkins/Documents/Projects/bookmark-manager/spec/features/creating_links_spec.rb": [
         1,
         null,
@@ -36,6 +51,6 @@
         null
       ]
     },
-    "timestamp": 1505834371
+    "timestamp": 1505922942
   }
 }
