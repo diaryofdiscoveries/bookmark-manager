@@ -46,6 +46,26 @@
         null,
         null
       ],
+      "/Users/zoehopkins/Documents/Projects/bookmark-manager/spec/features/user_management_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/zoehopkins/Documents/Projects/bookmark-manager/spec/features/web_helper.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
       "/Users/zoehopkins/Documents/Projects/bookmark-manager/spec/features/viewing_links_spec.rb": [
         1,
         null,
@@ -84,6 +104,6 @@
         null
       ]
     },
-    "timestamp": 1505996847
+    "timestamp": 1506011256
   }
 }

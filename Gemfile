@@ -10,6 +10,7 @@ gem 'thin'
 gem 'data_mapper'
 gem 'dm-postgres-adapter'
 gem 'pg'
+gem 'bcrypt'
 
 group :test do
   gem 'capybara'

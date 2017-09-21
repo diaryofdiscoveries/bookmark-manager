@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2017-09-21T13:27:27+01:00">2017-09-21T13:27:27+01:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2017-09-21T17:27:36+01:00">2017-09-21T17:27:36+01:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -31,9 +31,9 @@
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>3</b> files in total.
-    <b>48</b> relevant lines. 
-    <span class="green"><b>48</b> lines covered</span> and
+    <b>5</b> files in total.
+    <b>60</b> relevant lines. 
+    <span class="green"><b>60</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -71,6 +71,16 @@
       </tr>
       
       <tr>
+        <td class="strong"><a href="#b3f27167041e8545baff0744b1afc54eff1dca61" class="src_link" title="spec/features/user_management_spec.rb">spec/features/user_management_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>9</td>
+        <td>6</td>
+        <td>6</td>
+        <td>0</td>
+        <td>1.2</td>
+      </tr>
+      
+      <tr>
         <td class="strong"><a href="#6c47c7b8c51ef0ae55be1414c10fa7881b7ae550" class="src_link" title="spec/features/viewing_links_spec.rb">spec/features/viewing_links_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>35</td>
@@ -78,6 +88,16 @@
         <td>22</td>
         <td>0</td>
         <td>1.2</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#2a2e38f3013b45accbd0965518e157a32c0c89b5" class="src_link" title="spec/features/web_helper.rb">spec/features/web_helper.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>7</td>
+        <td>6</td>
+        <td>6</td>
+        <td>0</td>
+        <td>1.0</td>
       </tr>
       
     </tbody>
@@ -380,6 +400,79 @@
 </div>
 
       
+        <div class="source_table" id="b3f27167041e8545baff0744b1afc54eff1dca61">
+  <div class="header">
+    <h3>spec/features/user_management_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>6</b> relevant lines. 
+      <span class="green"><b>6</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require_relative &#39;web_helper&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">feature &#39;User sign up&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  scenario &#39;I can sign up a new user&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="5">
+          <span class="hits">2</span>
+          
+          <code class="ruby">    expect { sign_up }.to change(User, :count).by(1)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(page).to have_content(&#39;Welcome, zoe@example.com&#39;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(User.first.email).to eq(&#39;zoe@example.com&#39;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
         <div class="source_table" id="6c47c7b8c51ef0ae55be1414c10fa7881b7ae550">
   <div class="header">
     <h3>spec/features/viewing_links_spec.rb</h3>
@@ -599,6 +692,67 @@
         </li>
       
         <li class="never" data-hits="" data-linenumber="35">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="2a2e38f3013b45accbd0965518e157a32c0c89b5">
+  <div class="header">
+    <h3>spec/features/web_helper.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>6</b> relevant lines. 
+      <span class="green"><b>6</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">def sign_up</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  visit &#39;/users/new&#39;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  expect(page.status_code).to eq(200)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  fill_in :email,     with: &#39;zoe@example.com&#39;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  fill_in :password,  with: &#39;oranges!&#39;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  click_button &#39;Sign up&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
           
           
           <code class="ruby">end</code>
