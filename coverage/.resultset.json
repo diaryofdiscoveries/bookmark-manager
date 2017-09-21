@@ -14,6 +14,18 @@
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
         null
       ],
       "/Users/zoehopkins/Documents/Projects/bookmark-manager/spec/features/creating_links_spec.rb": [
@@ -72,6 +84,6 @@
         null
       ]
     },
-    "timestamp": 1505935500
+    "timestamp": 1505987882
   }
 }
