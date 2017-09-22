@@ -2,10 +2,12 @@
 
 <ul id='links'>
   <% @links.each do |link| %>
-    <li>
-      Title: <%= link.title %>
-      URL:   <%= link.url   %>
-      <!-- Tags:  <%= link.tags.map(&:name).join(",")  %> -->
-    </li>
+      <table>
+        <tr>
+          <td width="250">Title: <%= link.title %></td>
+          <td width="250">URL:   <%= link.url   %></td>
+          <td width="250">Tags:  <%= link.tags.map(&:name).join(", ")  %></td>
+        </tr>
+      </table>
   <% end %>
 </ul>
