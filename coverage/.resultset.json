@@ -67,10 +67,20 @@
         null,
         1,
         2,
+        1,
+        1,
         null,
         null,
         1,
         2,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        2,
+        1,
         null,
         null
       ],
@@ -78,12 +88,12 @@
         1,
         null,
         null,
-        4,
-        4,
-        4,
-        4,
-        4,
-        4,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
         null
       ],
       "/Users/zoehopkins/Documents/Projects/bookmark-manager/spec/features/viewing_links_spec.rb": [
@@ -124,6 +134,6 @@
         null
       ]
     },
-    "timestamp": 1506094098
+    "timestamp": 1506095830
   }
 }
