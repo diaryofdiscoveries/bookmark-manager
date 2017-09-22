@@ -55,15 +55,25 @@
         1,
         1,
         null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        2,
+        null,
         null
       ],
       "/Users/zoehopkins/Documents/Projects/bookmark-manager/spec/features/web_helper.rb": [
         1,
-        1,
-        1,
-        1,
-        1,
-        1,
+        null,
+        null,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
         null
       ],
       "/Users/zoehopkins/Documents/Projects/bookmark-manager/spec/features/viewing_links_spec.rb": [
@@ -104,6 +114,6 @@
         null
       ]
     },
-    "timestamp": 1506011256
+    "timestamp": 1506074830
   }
 }
