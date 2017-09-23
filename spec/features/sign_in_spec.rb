@@ -1,5 +1,3 @@
-require_relative 'web_helper'
-
 feature 'User sign in' do
 
   let!(:user) do
